@@ -12,8 +12,8 @@ h1 {
 body {
   background-color: black;
   color: white;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   margin-bottom: 0;
 }
 
@@ -153,7 +153,7 @@ footer ul li {
     display: none;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 700px) {
     .card img {
       height: 300px;
       width: 500px;
