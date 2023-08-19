@@ -1,0 +1,162 @@
+* {
+  list-style: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 71px;
+  margin: 0 40% 0 5%;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main img {
+  height: 41.9px;
+  width: 132px;
+  margin: 2% 30% 2% 5%;
+}
+
+.main ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin-right: 15%;
+  font-size: 20px;
+}
+
+.main a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+}
+
+.main a:hover {
+  color: #1db954;
+  border-bottom: 2px solid #1db954;
+  transition: ease-in-out;
+}
+
+.header {
+  margin: 0 40% 0 5%;
+}
+
+.cards {
+  margin-bottom: 0;
+}
+svg {
+  position: sticky;
+  top: 30%;
+  opacity: 0.5;
+}
+
+.card {
+  margin: 20% 0 20% 5%;
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h2 {
+  font-size: 50px;
+}
+
+.card p {
+  font-size: 30px;
+}
+
+.card img {
+  height: 400px;
+  width: auto;
+  border-radius: 25px;
+}
+
+.footer {
+  height: 30vh;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.links img {
+  height: 41.9px;
+  width: 132px;
+  margin: 0 2% 2% 5%;
+}
+
+.links ul {
+  line-height: 2;
+  justify-content: center;
+  align-items: center;
+}
+.group {
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin-right: 3%;
+  margin-left: 0;
+}
+
+.group h3 {
+  color: grey;
+}
+
+.group ul li:hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+footer ul li {
+  display: inline;
+  padding: 200px 50px 100px 50px;
+}
+
+@media (max-width: 1220px) {
+  h1 {
+    font-size: 50px;
+  }
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .main ul li {
+    font-size: 15px;
+  }
+  #svg {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .main li {
+    display: none;
+  }
+
+  .svg {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+    .card img {
+      height: 300px;
+      width: 500px;
+    }
+  }
+}
