@@ -185,4 +185,7 @@ footer ul li {
     flex-direction: column;
     display: block;
   }
+  footer {
+    content: none;
+  }
 }
